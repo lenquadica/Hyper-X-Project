@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hyper-X Decentralized Exchange</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>📈 Hyper-X Decentralized Exchange</h1>
+
+    <input type="text" id="user" placeholder="Enter username">
+    <input type="number" id="amount" placeholder="Amount">
+    <input type="number" id="price" placeholder="Price">
+
+    <button onclick="placeBuyOrder()">Buy</button>
+    <button onclick="placeSellOrder()">Sell</button>
+
+    <h2>Order Book</h2>
+    <ul id="order-book"></ul>
+</body>
+</html>

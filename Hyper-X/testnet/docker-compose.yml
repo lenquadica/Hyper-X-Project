@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  validator1:
+    image: hyperx-node
+    ports:
+      - "30303:30303"
+
+  validator2:
+    image: hyperx-node
+    ports:
+      - "30304:30303"
+
+  explorer:
+    image: hyperx-explorer
+    ports:
+      - "8080:8080"
+
+  wallet:
+    image: hyperx-wallet
+    ports:
+      - "8090:8090"
+
+  nft-marketplace:
+    image: hyperx-nft
+    ports:
+      - "8081:8081"
